@@ -1,0 +1,9 @@
+version: "3"
+services:
+  hum:
+    container_name: "hum"
+    image: "hum:latest"
+    expose:
+      - "8080"
+    ports:
+      - "1212:8080"
